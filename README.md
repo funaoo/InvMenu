@@ -1,8 +1,16 @@
 # InvMenu
 
-[Muqsit's InvMenu](https://github.com/Muqsit/InvMenu) for PocketMine-MP, as included in [MultiVersion-Altay](https://github.com/funaoo/MultiVersion-Altay).
+> **Recommended InvMenu for MultiVersion.**
 
-The code is the same as the original. It lives at `src/libs/muqsit/invmenu` under the namespace `libs\muqsit\invmenu`.
+This repository contains a copy of [Muqsit's InvMenu](https://github.com/Muqsit/InvMenu) for PocketMine-MP, as included in [MultiVersion-Altay](https://github.com/funaoo/MultiVersion-Altay).
+
+## Credits
+
+All credit for InvMenu goes to its original author, **[Muqsit](https://github.com/Muqsit)**.
+
+- Original repository: [Muqsit/InvMenu](https://github.com/Muqsit/InvMenu)
+- This is not an original work. The code is the same as the original and lives at `src/libs/muqsit/invmenu` under the namespace `libs\muqsit\invmenu`.
+- Please star and support the [original repository](https://github.com/Muqsit/InvMenu), and check it for the license and the latest updates.
 
 ## Usage
 
@@ -32,7 +40,3 @@ Available types: `TYPE_CHEST`, `TYPE_DOUBLE_CHEST` and `TYPE_HOPPER`.
 ## Using it with MultiVersion-Altay
 
 [MultiVersion-Altay](https://github.com/funaoo/MultiVersion-Altay) already includes this InvMenu and registers it on startup. It is recommended to use that copy, especially for players on 0.15.10. In that case, add `depend: [MultiVersion]` to your plugin and do not register or bundle InvMenu again.
-
-## Credits
-
-- [Muqsit/InvMenu](https://github.com/Muqsit/InvMenu): the original InvMenu.
